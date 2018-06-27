@@ -1,0 +1,11 @@
+{
+  "source": ["properties/**/*.json"],
+  "platforms": {
+    "sketch": {
+      "transforms": ["attribute/cti", "attribute/color", "name/human"],
+      "sketchInput": "template.sketch",
+      "sketchOutput": "output.sketch",
+      "actions": ["build_sketch"]
+    }
+  }
+}

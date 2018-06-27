@@ -1,0 +1,13 @@
+{
+  "name": "sketch-style-dictionary-test",
+  "version": "1.0.0",
+  "description": "Integrate Style Dictionary with Sketch",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build.js"
+  },
+  "devDependencies": {
+    "style-dictionary": "^2.2.0",
+    "sketch-style-dictionary": "^0.1.0"
+  }
+}

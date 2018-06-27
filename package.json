@@ -1,0 +1,30 @@
+{
+  "name": "sketch-style-dictionary",
+  "version": "0.1.0",
+  "description": "Integrate Style Dictionary with Sketch",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd test && npm start",
+    "test-setup": "npm link && cd test && npm link sketch-style-dictionary && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbanksdesign/sketch-style-dictionary.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dbanksdesign/sketch-style-dictionary/issues"
+  },
+  "homepage": "https://github.com/dbanksdesign/sketch-style-dictionary#readme",
+  "devDependencies": {
+    "compressing": "^1.2.3",
+    "fs-extra": "^5.0.0",
+    "jszip": "^3.1.5",
+    "plist": "^2.1.0",
+    "simple-plist": "^0.2.1",
+    "sketch-json": "^1.1.0",
+    "style-dictionary": "^2.2.0",
+    "uuid-v4": "^0.1.0"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "asset": {
+    "svg": {
+      "logo-square": {
+        "value": "assets/svgs/logo-square.svg",
+        "attributes": {
+          "width": 512,
+          "height": 512
+        }
+      },
+      "logo-full": {
+        "value": "assets/svgs/logo-full.svg",
+        "attributes": {
+          "width": 173,
+          "height": 48,
+          "imageType": "Logo-Full.imageset"
+        }
+      },
+      "logo-small": {
+        "value": "assets/svgs/logo-full.svg",
+        "attributes": {
+          "width": 86,
+          "height": 24,
+          "imageType": "Logo-Small.imageset"
+        }
+      },
+      "logo-full-white": {
+        "value": "assets/svgs/logo-full-white.svg",
+        "attributes": {
+          "width": 173,
+          "height": 48
+        }
+      },
+      "app-icon": {
+        "value": "assets/svgs/app-icon.svg",
+        "attributes": {
+          "width": 512,
+          "height": 512,
+          "imageType": "AppIcon.appiconset",
+          "sizes": [120, 180]
+        }
+      }
+    }
+  }
+}

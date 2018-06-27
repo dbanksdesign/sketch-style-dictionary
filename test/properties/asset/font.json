@@ -1,0 +1,49 @@
+{
+  "asset": {
+    "font": {
+      "icon": {
+        "name" : { "value": "MaterialIcons-Regular" },
+        "ttf"  : { "value": "assets/fonts/MaterialIcons-Regular.ttf" },
+        "otf"  : { "value": "assets/fonts/MaterialIcons-Regular.otf" },
+        "eot"  : { "value": "assets/fonts/MaterialIcons-Regular.eot" },
+        "woff" : { "value": "assets/fonts/MaterialIcons-Regular.woff" },
+        "woff2": { "value": "assets/fonts/MaterialIcons-Regular.woff2" }
+      },
+      "opensans": {
+        "name" : { "value": "OpenSans-Light" },
+        "displayName" : { "value": "Open Sans" },
+        "ttf"  : { "value": "assets/fonts/OpenSans-Light.ttf" }
+      },
+      "roboto": {
+        "name" : { "value": "Roboto-Regular" },
+        "displayName" : { "value": "Roboto" },
+        "ttf"  : { "value": "assets/fonts/Roboto-Regular.ttf" }
+      },
+      "sourcesans": {
+        "name" : { "value": "SourceSansPro-Regular" },
+        "displayName" : { "value": "Source Sans Pro" },
+        "ttf"  : { "value": "assets/fonts/SourceSansPro-Regular.ttf" }
+      },
+      "ptsans": {
+        "name" : { "value": "PTSans-Regular" },
+        "displayName" : { "value": "PT Sans" },
+        "ttf"  : { "value": "assets/fonts/PT_Sans/PT_Sans-Web-Regular.ttf" }
+      },
+      "notosans": {
+        "name" : { "value": "NotoSans-Regular" },
+        "displayName" : { "value": "Noto Sans" },
+        "ttf"  : { "value": "assets/fonts/Noto_Sans/NotoSans-Regular.ttf" }
+      },
+      "ubuntu": {
+        "name" : { "value": "Ubuntu-Regular" },
+        "displayName" : { "value": "Ubuntu" },
+        "ttf"  : { "value": "assets/fonts/Ubuntu/Ubuntu-Regular.ttf" }
+      },
+      "arvo": {
+        "name" : { "value": "Arvo-Regular" },
+        "displayName" : { "value": "Arvo" },
+        "ttf"  : { "value": "assets/fonts/Arvo-Regular.ttf" }
+      }
+   }
+  }
+}

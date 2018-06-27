@@ -1,0 +1,10 @@
+/test/node_modules
+/node_modules
+/build
+/*.iml
+/tmp
+*~
+*#
+*.swp
+*.bak
+.DS_Store

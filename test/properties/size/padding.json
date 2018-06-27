@@ -1,0 +1,13 @@
+{
+  "size": {
+    "padding": {
+      "tiny"     : { "value": "0.5" },
+      "small"    : { "value": "0.75" },
+      "medium"   : { "value": "1.25" },
+      "large"    : { "value": "1.75" },
+      "xl"       : { "value": "2.5" },
+      "xxl"      : { "value": "3" },
+      "base"     : { "value": "{size.padding.medium.value}" }
+    }
+  }
+}
