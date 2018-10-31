@@ -1,6 +1,9 @@
 # Sketch Style Dictionary
 A framework to hook Style Dictionary up to Sketch files. It's a bit messy right now, but has potential. Because Sketch files are a zipped directory of JSON files, it is straightforward (albeit verbose) to write them. This doesn't use react-sketchapp or anything, so you can actually generate sketch files in a CI/CD pipeline that doesn't have Sketch installed!
 
+## ⚠️ HUGE WARNING ⚠️
+This is super rough work-in-progress. Nothing is really tested or ready for production. Putting this code out there to get the conversation started.
+
 ## What's Included
 
 ### Transforms
