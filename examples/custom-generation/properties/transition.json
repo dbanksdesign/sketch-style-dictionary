@@ -1,0 +1,45 @@
+
+{
+  "transition": {
+    "page" : {
+      "in": {
+        "value":"{time.transition.base.value} {easing.transition.out-expo.value}"
+      }
+    },
+    "modal": {
+      "in": {
+        "value":"{time.transition.long.value} {easing.transition.out-expo.value}"
+      }
+    },
+    "module": {
+      "entrance": {
+        "value": "{time.transition.short.value} {easing.transition.out-back.value}",
+        "comment": "Slight bounce effect, used for animating in list items"
+      },
+      "in": {
+        "value": "{time.transition.short.value} {easing.transition.out-expo.value}",
+        "comment": ""
+      },
+      "out": {
+        "value": "{time.transition.short.value} {easing.transition.in-cubic.value}",
+        "comment": ""
+      },
+      "in-out": {
+        "value": "{time.transition.short.value} {easing.transition.in-out-cubic.value}",
+        "comment": ""
+      }
+    },
+    "item": {
+      "base": {
+        "value": "{time.transition.short.value} {easing.transition.in-out.value}",
+        "comment": ""
+      }
+    },
+    "dropdown": {
+      "in": {
+        "value": "{time.transition.short.value} {easing.transition.out-back.value}",
+        "comment": ""
+      }
+    }
+  }
+}

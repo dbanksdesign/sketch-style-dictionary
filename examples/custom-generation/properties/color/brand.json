@@ -1,0 +1,70 @@
+{
+  "color": {
+    "brand": {
+      "primary": {
+        "lighter": {
+          "value": "{color.base.teal.lighter.value}",
+          "attributes": {
+            "font": "base"
+          }
+        },
+        "light": {
+          "value": "{color.base.teal.light.value}",
+          "attributes": {
+            "font": "base"
+          }
+        },
+        "base": {
+          "value": "{color.base.teal.base.value}",
+          "attributes": {
+            "font": "base"
+          }
+        },
+        "dark": {
+          "value": "{color.base.teal.dark.value}",
+          "attributes": {
+            "font": "inverse"
+          }
+        },
+        "darker": {
+          "value": "{color.base.teal.darker.value}",
+          "attributes": {
+            "font": "inverse"
+          }
+        }
+      },
+      "secondary": {
+        "lighter": {
+          "value": "{color.base.green.lighter.value}",
+          "attributes": {
+            "font": "base"
+          }
+        },
+        "light": {
+          "value": "{color.base.green.light.value}",
+          "attributes": {
+            "font": "base"
+          }
+        },
+        "base": {
+          "value": "{color.base.green.base.value}",
+          "attributes": {
+            "font": "base"
+          }
+        },
+        "dark": {
+          "value": "{color.base.green.dark.value}",
+          "attributes": {
+            "font": "inverse"
+          }
+        },
+        "darker": {
+          "value": "{color.base.green.darker.value}",
+          "attributes": {
+            "font": "inverse"
+          }
+        }
+      }
+    }
+  }
+}

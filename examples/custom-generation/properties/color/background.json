@@ -1,0 +1,27 @@
+{
+  "color": {
+    "background": {
+      "base":      { "value":"{color.base.white.value}",          "attributes":{"font":"base"}   },
+      "alt":       { "value":"{color.base.grey.lightest.value}",   "attributes":{"font":"base"}   },
+      "inverse":   { "value":"{color.base.grey.dark.value}",  "attributes":{"font":"inverse"}},
+      "base":      { "value":"{color.base.grey.base.value}",       "attributes":{"font":"inverse"}},
+      "success":   { "value":"{color.base.green.base.value}",      "attributes":{"font":"inverse"}},
+      "error":     { "value":"{color.base.red.base.value}",        "attributes":{"font":"inverse"}},
+      "warning":   { "value":"{color.base.orange.base.value}",     "attributes":{"font":"inverse"}},
+      "info":      { "value":"{color.base.teal.base.value}", "attributes":{"font":"inverse"}},
+
+      "badge": {
+        "base":    { "value":"{color.base.grey.base.value}",       "attributes":{"font":"inverse"}},
+        "success": { "value":"{color.base.green.base.value}",      "attributes":{"font":"inverse"}},
+        "error":   { "value":"{color.base.red.base.value}",        "attributes":{"font":"inverse"}},
+        "warning": { "value":"{color.base.orange.base.value}",     "attributes":{"font":"inverse"}},
+        "info":    { "value":"{color.base.teal.base.value}", "attributes":{"font":"inverse"}}
+      },
+
+      "field": {
+        "base": { "value":"{color.base.white.value}",          "attributes":{"font":"base"} },
+        "disabled": { "value":"{color.base.grey.lightest.value}",  "attributes":{"font":"base"} }
+      }
+    }
+  }
+}

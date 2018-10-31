@@ -1,0 +1,12 @@
+{
+  "size": {
+    "icon": {
+      "tiny":  { "value":"0.75" },
+      "small": { "value":"1" },
+      "base" : { "value":"1.25" },
+      "large": { "value":"2" },
+      "xl"   : { "value":"2.5" },
+      "xxl"  : { "value":"3" }
+    }
+  }
+}

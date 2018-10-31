@@ -1,5 +1,5 @@
 {
-  "name": "sketch-style-dictionary-test",
+  "name": "sketch-style-dictionary-example",
   "version": "1.0.0",
   "description": "Integrate Style Dictionary with Sketch",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "start": "style-dictionary build --config ./config.js"
   },
   "devDependencies": {
-    "style-dictionary": "^2.2.0",
+    "style-dictionary": "^2.4.0",
     "sketch-style-dictionary": "^0.1.0"
   }
 }

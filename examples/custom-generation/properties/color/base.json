@@ -1,0 +1,66 @@
+{
+  "color": {
+    "base": {
+      "purple": {
+        "lighter" : { "value": "#E1BEE7", "attributes": {"font": "base"}},
+        "light" : { "value": "#BA68C8", "attributes": {"font": "inverse"}},
+        "base" : { "value": "#AB47BC", "attributes": {"font": "inverse"}},
+        "dark" : { "value": "#7B1FA2", "attributes": {"font": "inverse"}},
+        "darker" : { "value": "#4A148C", "attributes": {"font": "inverse"}}
+      },
+      "blue": {
+        "lighter" : { "value": "#BBDEFB", "attributes": {"font": "base"}},
+        "light" : { "value": "#64B5F6", "attributes": {"font": "base"}},
+        "base" : { "value": "#2196F3", "attributes": {"font": "inverse"}},
+        "dark" : { "value": "#1976D2", "attributes": {"font": "inverse"}},
+        "darker" : { "value": "#0D47A1", "attributes": {"font": "inverse"}}
+      },
+      "teal": {
+        "lighter"  : { "value": "#B2EBF2", "attributes": {"font": "base"}},
+        "light"  : { "value": "#4DD0E1", "attributes": {"font": "base"}},
+        "base"  : { "value": "#00BCD4", "attributes": {"font": "base"}},
+        "dark"  : { "value": "#0097A7", "attributes": {"font": "inverse"}},
+        "darker"  : { "value": "#006064", "attributes": {"font": "inverse"}}
+      },
+      "green": {
+        "lighter"  : { "value": "#DCEDC8", "attributes": {"font": "base"}},
+        "light"  : { "value": "#AED581", "attributes": {"font": "base"}},
+        "base"  : { "value": "#8BC34A", "attributes": {"font": "base"}},
+        "dark"  : { "value": "#689F38", "attributes": {"font": "inverse"}},
+        "darker"  : { "value": "#33691E", "attributes": {"font": "inverse"}}
+      },
+      "yellow": {
+        "lighter"  : { "value": "#FFF9C4", "attributes": {"font": "base"}},
+        "light"  : { "value": "#FFF176", "attributes": {"font": "base"}},
+        "base"  : { "value": "#FFEB3B", "attributes": {"font": "base"}},
+        "dark"  : { "value": "#FBC02D", "attributes": {"font": "base"}},
+        "darker"  : { "value": "#F57F17", "attributes": {"font": "base"}}
+      },
+      "orange": {
+        "lighter"  : { "value": "#FFE0B2", "attributes": {"font": "base"}},
+        "light"  : { "value": "#FFB74D", "attributes": {"font": "base"}},
+        "base"  : { "value": "#FF9800", "attributes": {"font": "base"}},
+        "dark"  : { "value": "#F57C00", "attributes": {"font": "base"}},
+        "darker"  : { "value": "#E65100", "attributes": {"font": "inverse"}}
+      },
+      "red": {
+        "lighter" : { "value": "#FFCDD2", "attributes": {"font": "base"}},
+        "light" : { "value": "#E57373", "attributes": {"font": "base"}},
+        "base" : { "value": "#F44336", "attributes": {"font": "inverse"}},
+        "dark" : { "value": "#D32F2F", "attributes": {"font": "inverse"}},
+        "darker" : { "value": "#B71C1C", "attributes": {"font": "inverse"}}
+      },
+      "grey": {
+        "lightest" : { "value": "#F2F4F5", "attributes": {"font": "base"}},
+        "lighter"  : { "value": "#D5D7D9", "attributes": {"font": "base"}},
+        "light"  : { "value": "#ACAFB3", "attributes": {"font": "base"}},
+        "base"  : { "value": "#868C91", "attributes": {"font": "inverse"}},
+        "dark"  : { "value": "#62676B", "attributes": {"font": "inverse"}},
+        "darker"  : { "value": "#303942", "attributes": {"font": "inverse"}}
+      },
+
+      "white": { "value": "#ffffff" },
+      "black": { "value": "#000000" }
+    }
+  }
+}

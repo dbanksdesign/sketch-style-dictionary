@@ -1,62 +1,54 @@
-const group = require('./group');
-const rect = require('./rect');
-const fill = require('./fill');
-const text = require('./text');
+const Group = require('./group');
+const Rect = require('./rect');
+const Fill = require('./fill');
+const TextLayer = require('./textLayer');
+const TextStyle = require('./textStyle');
 
 module.exports = function(opts) {
-  let _fill = fill(opts.color);
-  let _rect = rect({
+  let rect = Rect({
     width: 100,
     height: 100,
     x: 0,
     y: 0,
-    fills: [_fill],
+    fills: [Fill(opts.color)],
     borders: []
   });
-  let _name = text({
+
+  let name = TextLayer({
     name: opts.name,
     string: opts.name,
     width: 80,
     height: 50,
     x: 120,
     y: 0,
-    fills: [fill({
-      red: 0,
-      green: 0,
-      blue: 0,
-      alpha: 1
-    })],
-    font: "AmazonEmber-Regular"
+    fontName: "AmazonEmber-Regular",
+    fontSize: 30,
+    color: "#ccc"
   });
-  let _value = text({
+
+  let value = TextLayer({
     name: opts.value,
     string: opts.value,
     width: 80,
     height: 50,
     x: 120,
     y: 50,
-    fills: [fill({
-      red: 0.5,
-      green: 0.5,
-      blue: 0.5,
-      alpha: 1
-    })],
-    size: 10
+    fontSize: 20,
+    color: opts.value
   });
 
-
-  let _group = group({
-    "height": 100,
-    "width": 200,
-    "x": (opts.index * 200) + 20,
-    "y": 20,
-    "name": opts.name,
-    "layers": [
-      _rect,
-      _name,
-      _value
+  let group = Group({
+    height: 100,
+    width: 200,
+    x: (opts.index * 200) + 20,
+    y: 20,
+    name: opts.name,
+    layers: [
+      rect,
+      name,
+      value
     ]
   });
 
-  return _group;
+  return group;
 }

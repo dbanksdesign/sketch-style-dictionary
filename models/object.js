@@ -3,8 +3,8 @@ const style = require('./style');
 
 module.exports = function(opts = {}) {
   return {
-    _class: "group",
-    do_objectID: opts.id || uuid(),
+    _class: opts.class || "page",
+    do_objectID: opts.id || uuid().toUpperCase(),
     booleanOperation: -1,
     exportOptions: {
       _class: "exportOptions",
@@ -16,8 +16,8 @@ module.exports = function(opts = {}) {
     frame: {
       _class: "rect",
       constrainProportions: false,
-      height: opts.height || 100,
-      width: opts.width || 100,
+      height: opts.height || 0,
+      width: opts.width || 0,
       x: opts.x || 0,
       y: opts.y || 0
     },
@@ -27,14 +27,14 @@ module.exports = function(opts = {}) {
     isLocked: false,
     isVisible: true,
     layerListExpandedType: 0,
-    name: opts.name || "Group",
-    nameIsFixed: true,
+    name: opts.name || "Object",
+    nameIsFixed: false,
     resizingConstraint: 63,
     resizingType: 0,
     rotation: 0,
     shouldBreakMaskChain: false,
     style: opts.style || style(),
-    hasClickThrough: false,
+    hasClickThrough: true,
     layers: opts.layers || []
   }
 }
